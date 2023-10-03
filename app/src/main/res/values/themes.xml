@@ -41,6 +41,6 @@
         <item name="android:textColorHighlight">@color/colorSecondary</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
-
+i
     <style name="Theme.GamerAdem_Nsir" parent="Base.Theme.GamerAdem_Nsir" />
 </resources>
