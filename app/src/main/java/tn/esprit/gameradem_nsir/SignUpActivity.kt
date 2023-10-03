@@ -26,6 +26,7 @@ class SignUpActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
 
+
         }
         tiEmail = findViewById(R.id.tiEmail)
         tiPassword = findViewById(R.id.tiPassword)

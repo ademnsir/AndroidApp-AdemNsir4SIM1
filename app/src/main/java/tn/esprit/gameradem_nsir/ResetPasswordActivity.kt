@@ -30,6 +30,7 @@ class ResetPasswordActivity : AppCompatActivity() {
 
             startActivity(intent)
 
+
         }
 
         tiPassword = findViewById(R.id.tiPassword)
