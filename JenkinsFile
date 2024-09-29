@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('GIT') {
             steps {
-                git branch: 'master', url: 'https://github.com/ademnsir/AndroidApp-AdemNsir4SIM1.git'
+                git branch: 'master', url: 'https://github.com/hwafa/timesheetproject.git'
             }
         }
         stage('Compile Stage') {
