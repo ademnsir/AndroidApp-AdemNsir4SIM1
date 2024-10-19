@@ -1,5 +1,17 @@
 pipeline {
     agent any
 
-https://github.com/ademnsir/AndroidApp-AdemNsir4SIM1.git
+    stages {
+        stage('Check Maven Version') {
+            steps {
+                sh 'mvn -version'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline terminé.'
+        }
+    }
 }
